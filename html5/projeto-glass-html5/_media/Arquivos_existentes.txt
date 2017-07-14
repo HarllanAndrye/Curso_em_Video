@@ -1,0 +1,10 @@
+Nesta pasta são colocadas as mídias do projeto, porém foram retiradas para o arquivo do projeto não ficar muito grande.
+
+Arquivos removidos:
+- 2009-lovers-carvings-bibio.mp3
+- getting-started.mp4
+- how-it-feels.mp4
+- one-day.mp4
+
+
+Caso queira adicionar mídias, basta coloca-las nesta pasta e alterar as referências no projeto.

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Cadastrar</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/form.css">
+	
+	<script type="text/javascript" src="_javascript/funcoes.js"></script>
+
+	<style type="text/css">
+        fieldset#loginSite {
+            width: 430px;
+        }
+
+        input#cadastrar {
+			margin-left: 365px;
+		}
+    </style>
+</head>
+<body>
+
+	<div id="interface">
+
+		<header id="cabecalho">
+			<hgroup>
+				<h1>Google Glass</h1>
+				<h2>A revolução do Google está chegando</h2>
+			</hgroup>
+
+			<img id="icone" src="_imagens/login.png">
+
+			<nav id="menu" onmouseout="mudaFoto('_imagens/login.png')">
+				<h1>Menu Principal</h1>
+				<ul>
+					<li onmouseover="mudaFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
+					<li onmouseover="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+					<li onmouseover="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+					<li onmouseover="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+					<li onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+					<li onmouseover="mudaFoto('_imagens/login.png')"><a href="login.html">Entrar</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<article id="noticia-principal">
+	        <header id="cabecalho-artigo">
+	            <hgroup>
+	            	<script> document.write("<h3>Olá, "+pegaGetUrl()+".</h3>"); </script>
+
+	                <h1>Seus pedidos</h1>
+	                <br/>...<br/>
+	                <h1>Pedidos pendentes</h1>
+	                <br/>...<br/>
+	                <h1>Pedidos entregues</h1>
+	            </hgroup>
+	        </header>
+    	</article>
+
+		<footer id="rodape">
+			<p>Copyright 2017 - by Harllan Andryê
+			<br/>
+			<a href="http://facebook.com" target="blank" ">Facebook</a> | 
+			<a href="https://twitter.com/" target="blank">Twitter</a></p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
